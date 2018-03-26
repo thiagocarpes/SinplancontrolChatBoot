@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sinplan Control Chat Boot</string>
+    <string name="saudacao">Olá,
+                            \nSou o chatboot da Sinplan Control
+                            \nestou a disposição para te ajudar com todas as duas duvidas.
+                            \n \n Então, qual o seu nome?</string>
+    <string name="btnEnviar">Enviar</string>
+</resources>
