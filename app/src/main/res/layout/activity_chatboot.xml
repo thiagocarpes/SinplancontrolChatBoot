@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+
     tools:context="br.usjt.sinplancontrolchatboot.Chatboot">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp"/>
+
+    <ListView
+        android:id="@+id/listaConversa"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:fastScrollEnabled="true"></ListView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/pergunta"
+            android:hint="@string/placeholderPergunta"
+            android:layout_marginRight="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_toRightOf="@id/pergunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEnviar"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/branco"
+            android:textSize="@dimen/font_medium"
+            android:onClick="sendQuestion"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

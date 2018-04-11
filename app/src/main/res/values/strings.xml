@@ -2,7 +2,8 @@
     <string name="app_name">Sinplan Control Chat Boot</string>
     <string name="saudacao">Olá,
                             \nSou o chatboot da Sinplan Control
-                            \nestou a disposição para te ajudar com todas as duas duvidas.
-                            \n \n Então, qual o seu nome?</string>
+                            \nestou a disposição para te ajudar com todas as suas duvidas.
+                            \n \n Qual é o seu nome?</string>
     <string name="btnEnviar">Enviar</string>
+    <string name="placeholderPergunta">Escreva a sua pergunta:</string>
 </resources>
