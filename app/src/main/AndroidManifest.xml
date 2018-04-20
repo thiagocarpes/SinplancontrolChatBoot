@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Chatboot"></activity>
+        <activity android:name=".Chatboot" />
+        <activity android:name=".CadastroAtendimento" />
+        <activity android:name=".Dialogo" android:theme="@style/AppTheme.Theme.AppCompat"></activity>
     </application>
 
 </manifest>

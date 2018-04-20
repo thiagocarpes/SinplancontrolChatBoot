@@ -18,6 +18,7 @@ public class Chatboot extends AppCompatActivity {
     private ListView listChat;
     private ArrayAdapter <String> adapter;
     private ArrayList<String> conversa = new ArrayList<String>();
+    private int contador = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,8 +74,13 @@ public class Chatboot extends AppCompatActivity {
         if(question.equalsIgnoreCase(piroca)){
             answer = cabecalho+"O Vini gosta!!!";
         }
-
-        new Chat().execute(answer);
+        if(contador != 2) {
+            new Chat().execute(answer);
+            contador++;
+        }else{
+            Intent intent = new Intent(this, Dialogo.class);
+            startActivity(intent);
+        }
     }
 
     private class Chat extends AsyncTask<String, Void, String>{

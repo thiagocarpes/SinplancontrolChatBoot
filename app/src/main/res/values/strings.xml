@@ -1,9 +1,15 @@
 <resources>
-    <string name="app_name">Sinplan Control Chat Boot</string>
+    <string name="app_name">Sinbot</string>
     <string name="saudacao">Olá,
                             \nSou o chatboot da Sinplan Control
                             \nestou a disposição para te ajudar com todas as suas duvidas.
                             \n \n Qual é o seu nome?</string>
     <string name="btnEnviar">Enviar</string>
     <string name="placeholderPergunta">Escreva a sua pergunta:</string>
+    <string name="dialog_text">Deculpe, não conseguimos te ajudar.\n Por favor preencha o formulário da tela seguinte para encaminhar sua solicitação para um de nossos atendentes.</string>
+    <string name="btnOk">Ok</string>
+    <string name="descricao">Por favor nos diga sua duvida.\nNosso prazo para resposta é de até 2 dias úteis.</string>
+    <string name="nome">Nome:</string>
+    <string name="email">E-mail:</string>
+    <string name="msg">Mensagem:</string>
 </resources>
